@@ -7,7 +7,6 @@ inputs:
   checks:
     description: "JSON array of metadata for each check to annotate"
     required: true
-runs-on: self-hosted
 runs:
   using: "node12"
   main: "dist/index.js"
